@@ -15,7 +15,7 @@ ENV CATALINA_HOME /opt/tomcat
 ENV CLASSPATH /opt/tomcat/common/lib/jsp-api.jar:/opt/tomcat/common/lib/servlet-api.jar
 ENV PATH $PATH:$CATALINA_HOME/bin
 
-VOLUME ["/opt/tomcat/webapps","/opt/tomcat/conf/Catalina/localhost"]
+VOLUME ["/opt/tomcat"]
 
 EXPOSE 8080
 
